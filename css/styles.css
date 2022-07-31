@@ -10,24 +10,50 @@ h1{
 }
 
 div{
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  position: relative;
 }
 
 .header{
   background-color: #E4F9F5;
-  border: 10px solid pink;
+}
+
+.boxes_container{
+  position: relative;
 }
 
 .red{
   background-color: red;
-  margin-left: 220px;
-  border:20px solid green;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top:200px;
 
 }
 
 .black{
   background-color: black;
-  margin-left: 460px;
-  border:10px solid white;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+
+}
+
+.green{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
 }
