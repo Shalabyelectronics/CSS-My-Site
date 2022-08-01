@@ -1,16 +1,32 @@
+/*WEB body Css properties*/
 body{
   background-color: #E8F9FD;
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   font-family: 'Merriweather Sans', sans-serif;
 
 }
-
+/*Main Header*/
+.header_container{
+  background-color: #E4F9F5;
+  text-align: center;
+}
+/* Main header images */
+.upside_cloude{
+  position: absolute;
+  right: 30%;
+  top: 5%;
+}
+.downside_cloude{
+  position: absolute;
+  left: 30%;
+}
 span{
   text-decoration: underline;
 }
 
-hr{
+.sep-line{
+  margin-top: 50px;
   border-style: dotted;
   border-width: 15px;
   border-top: none;
@@ -20,18 +36,27 @@ hr{
 }
 
 h1{
-  color: #40514E;
+  color: #81CACF;
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+
 }
 .hi_title{
   padding-top: 100px;
 }
-h2, h3 {
+h2{
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
-
+.job-title{
+  color: #81CACF;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
 div{
   margin: 0 auto;
 }
@@ -40,22 +65,58 @@ img{
   margin: 0 auto;
 }
 
-.header_container{
-  background-color: #E4F9F5;
+
+.about_container{
+  margin: 50px auto 110px auto;
 }
 
-
-.upside_cloude{
-  position: absolute;
-  right: 30%;
-  top: 5%;
+.about_row{
+  width: 50%;
 }
-
+.skills_container{
+  width: 50%;
+}
+.hobbies_container{
+  width: 50%;
+}
 .profile_img{
+  float: left;
   position: relative;
+  bottom: 80px;
+  padding-right: 20px;
 }
-
-.downside_cloude{
-  position: absolute;
-  left: 30%;
+.skill-row {
+  margin: 50px auto 100px auto;
+}
+.skill-row p{
+  position: relative;
+  top:10px;
+}
+.hobby-row{
+  margin: 100px auto;
+}
+.footer_container{
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-row{
+  width: 50%;
+}
+#python{
+  float: right;
+  position: relative;
+  bottom: 19px;
+  width: 120px;
+  padding-left: 20px;
+}
+#javascript{
+  float: left;
+  padding-right: 20px;
+  position: relative;
+  bottom: 17.5px;
+}
+#video-games-img{
+  float: right;
+  position: relative;
+  bottom: 30px;
 }
